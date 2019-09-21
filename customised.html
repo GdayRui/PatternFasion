@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pattern_Fashion_Customise</title>
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300,400|Satisfy" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108632345-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108632345-1');
+</script>
+
+</head>
+
+<body>
+<div id="container">
+    
+<!-- navbar -->    
+<header>
+    <div id="navbar">
+        <div id="logo"><a href="index.html"><img src="img/PatternFashionLogo.png" alt="patternfashion_logo"></a>
+            <p><span class="yellow">P</span>ATTERN <span class="blue">F</span>ASHION</p>
+        </div>
+        <div id="menu">
+             <ul id="memu_list">
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="customised.html">Costumised</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </div>
+    </div>
+    
+    <!-- main banner -->    
+    <div id="mainbanner">
+	<h1>Without color<br>Pattern is still perfect</h1>
+    </div>
+</header>
+
+<div id="content">
+    
+    <!-- price -->
+    <section id="price_detail">
+        
+        <h1><span class="yellow">P</span>rice <span class="blue">D</span>etails</h1>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>T-shirt</td>
+            <td>AU $29.9</td>
+          </tr>
+          <tr>
+            <td>Skirt</td>
+            <td>AU $35.9</td>
+          </tr>
+          <tr>
+            <td>Shorts</td>
+            <td>AU $35.9</td>
+          </tr>
+          <tr>
+            <td>Bag</td> 
+            <td>AU $39.9</td>
+          </tr>
+          <tr>
+            <td>Shoes</td>
+            <td>AU $39.9</td>
+          </tr>
+        </table>
+        <p><small>* This price exclud the shipping fee.</small></p>   
+    </section>
+     
+    <!-- upload -->    
+    <section>
+        <h1><span class="yellow">S</span>end to <span class="blue">U</span>s</h1>
+
+    <div id="form_upload">
+
+        <form action="php/upload.php" method="post">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Name" required="" />
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="youremail@email.com" required="" />
+            
+            <select name="cars" class="select_items">
+                <option value="T-shirt">T-shirt</option>
+                <option value="Skirt">Skirt</option>
+                <option value="Shorts">Shorts</option>
+                <option value="Bags">Bags</option>
+                <option value="Shoes">Shoes</option>
+            </select>
+            
+            <select name="cars" class="select_size">
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Message" required=""></textarea>
+            <input type="file" id="myFile">
+            <input id="submit" type="submit" name="submit" value="Submit"/>
+        </form>
+
+    </div>
+    </section>
+
+</div>
+    
+<footer>
+    <hr>
+    <div id="social_media">
+        <div class="social_media_icons">
+            <a href="#"><img src="img/PatternFashion-Home_18.png" alt=""></a>
+            <a href="#"><img src="img/PatternFashion-Home_20.png" alt=""></a> 
+            <a href="#"><img src="img/PatternFashion-Home_22.png" alt=""></a>
+            <a href="#"><img src="img/PatternFashion-Home_24.png" alt=""></a>
+            <a href="#"><img src="img/PatternFashion-Home_26.png" alt=""></a>
+        </div>
+    </div>
+    
+    <div id="terms">
+        <div id="terms_content">
+        <p>General Information     Offices     Terms of Condition     ©2017, all rightd reserved     Stores</p>
+        </div>
+     </div>
+
+</footer>
+
+</div>
+    
+<script>
+function myFunction() {
+    var x = document.getElementById("myFile");
+}
+</script>
+
+</body>
+</html>
