@@ -1,2 +1,2 @@
 # PatternFasion
-Assignment work for Web Development from Holmesglen
+https://gdayrui.github.io/PatternFasion/
